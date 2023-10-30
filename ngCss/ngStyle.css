@@ -1,0 +1,125 @@
+.alert
+{
+   position:relative;
+   max-width:383px;
+   margin:10px 15px;
+}
+.alert .warning
+{
+   position:relative;
+   padding:5px;
+   color:#fff;
+   background:red;
+   text-align:center;
+   border-radius:3px;
+   font-weight:bold;
+}
+.warning i 
+{
+   float:left;
+   margin-top:1.5px;
+}
+
+.alert .aman
+{
+   margin-top:5px;
+   position:relative;
+   padding:5px;
+   color:#fff;
+   background:green;
+   text-align:center;
+   border-radius:3px;
+   font-weight:bold;
+}
+.aman i 
+{
+   float:left;
+   margin-top:1.5px;
+}
+.mask 
+{
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   background:rgba(0,0,0,0.50);
+   display:none;
+}
+.ngPopup
+{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   width:300px;
+   height:280px;
+   background:#fff;
+   border-radius:3px;
+   overflow:hidden;
+   z-index:999999;
+   display:none;
+}
+.ngPopup .topTitle
+{
+   position:relative;
+   padding:8px 5px;
+   border-bottom:2px solid #f2f2f2;
+   font-weight:bold;
+   text-align:center;
+   background:#3b5998;
+   color:#fff;
+}
+.ngPopup .formulir
+{
+   position:relative;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+   padding:10px;
+}
+.formulir .form-group
+{
+   position:relative;
+   width:280px;
+   margin-top:15px;
+}
+.ngPopup .formulir .form-group:not(:first-child){
+   margin-top:30px;
+}
+.form-group .form-input
+{
+   width:100%;
+   background:#f2f2f2;
+   border:none;
+   outline:none;
+   padding:8px 5px;
+   border-top-right-radius:3px;
+   border-bottom-right-radius:3px;
+   border-bottom-left-radius:3px;
+   box-shadow:0 .5px 1px rgba(0,0,0,0.50);
+}
+.form-group label
+{
+   position:absolute;
+   top:-18.5px;
+   width:100px;
+   padding:0 5px;
+   left:-1px;
+   background:#3b5998;
+   color:#fff;
+   border-top-right-radius:3px;
+   border-top-left-radius:3px;
+}
+.form-group .btn-submit
+{
+   background:#3b5998;
+   padding:5px 10px;
+   color:#fff;
+   font-weight:bold;
+   text-align:center;
+   border-radius:3px;
+   border:none;
+   box-shadow:0 .5px 3px rgba(0,0,0,0.50);
+}
